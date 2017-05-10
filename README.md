@@ -4,6 +4,7 @@
 <a href="http://predixdev.github.io/predix-microservice-cf-spring" target="_blank">
 	<img height="50px" width="100px" src="images/pages.jpg" alt="view github pages">
 </a>
+
 Predix Microservice Template using Spring Rest Template
 ==============
 
@@ -21,7 +22,7 @@ Each Microservice Template project shares the following characteristics
 
 This project is a cloud-ready microservice that demonstrates how to create [Spring Rest Template](https://spring.io/guides/gs/consuming-rest/) based Services.  You simply change the @RequestMapping url and begin adding your service implementation.  It has SpringBoot, Spring Profiles and Property file management configured and ready for local development vs. cloud deployment.  It is also set up for Test Driven Development with JUnit and Mockito.
 
-##To Download and Push predix-microservice-cf
+## To Download and Push predix-microservice-cf
 
 1. Download a [DevBox](https://www.predix.io/catalog/other-resources/devbox.html) and launch it in Virtual Box or install the [Dependencies](#dependencies)
 
@@ -64,7 +65,7 @@ This project is a cloud-ready microservice that demonstrates how to create [Spri
   visit http://(cloud-url-here)/services/ping - get the url from the output of cf push  
   ```
 
-##Troubleshooting
+## Troubleshooting
 If you encounter a github acct/password issue then contact predixgithubaccount@ge.com.  
 
 If you encounter a [corporate proxy issue](https://github.com/PredixDev/predix-rmd-ref-app/blob/master/docs/proxy.md#proxy), you might need to set up your env vars as required by your IT department.
@@ -105,7 +106,7 @@ by replacing predixuser@ge.com with your Predix.io user and pass.
 	  git config --global credential.helper cache --timeout=7200
 	  ```
 
-##Dependencies
+## Dependencies
 If you are not using DevBox, ensure your development environment is configured with the tools listed here.
 
 |Required | Version | Note |
