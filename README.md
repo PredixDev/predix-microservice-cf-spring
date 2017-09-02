@@ -72,7 +72,7 @@ If you encounter a [corporate proxy issue](https://github.com/PredixDev/predix-r
 
 If you encounter a maven or artifactory account issue, add your predix.io username and encrypted password to a maven ~/.m2/[settings.xml](docs/settings.xml) file on your laptop.  It should be setup already if in a [DevBox](https://www.predix.io/catalog/other-resources/devbox.html).
 
-##Preparation
+## Preparation
 Predix Microservice CF accesses code repos at https://github.com/PredixDev.
 
 The best experience is to use a [DevBox](https://www.predix.io/catalog/other-resources/devbox.html) which has all the tools and settings pre-installed.  
