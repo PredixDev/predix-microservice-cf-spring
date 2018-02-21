@@ -4,10 +4,10 @@
 <a href="http://predixdev.github.io/predix-microservice-cf-spring" target="_blank">
 	<img height="50px" width="100px" src="images/pages.jpg" alt="view github pages">
 </a>
-
+ 
 Predix Microservice Template using Spring Rest Template
 ==============
-
+ 
 Welcome to Predix Microservice CF Spring, a Predix Backend Microservice Template.  
 
 Each Microservice Template project shares the following characteristics
@@ -17,18 +17,18 @@ Each Microservice Template project shares the following characteristics
 * Cloud ready with a Manifest file
 * Environment Aware for Local, DEV, QA, Stage, Prod
 * Continuous Integration capable
-
+ 
 ## predix-microservice-cf-spring
 
 This project is a cloud-ready microservice that demonstrates how to create [Spring Rest Template](https://spring.io/guides/gs/consuming-rest/) based Services.  You simply change the @RequestMapping url and begin adding your service implementation.  It has SpringBoot, Spring Profiles and Property file management configured and ready for local development vs. cloud deployment.  It is also set up for Test Driven Development with JUnit and Mockito.
-
+ 
 ## To Download and Push predix-microservice-cf
 
 1. Download a [DevBox](https://www.predix.io/catalog/other-resources/devbox.html) and launch it in Virtual Box or install the [Dependencies](#dependencies)
 
-1. [Prepare your environment](#preparation) and follow the steps below to get up and running on Cloud Foundry.   
+2. [Prepare your environment](#preparation) and follow the steps below to get up and running on Cloud Foundry.   
 
-1. Download the project  
+3. Download the project  
   ```
   $ git clone https://github.com/PredixDev/predix-microservice-cf-spring.git  
   
@@ -38,7 +38,7 @@ This project is a cloud-ready microservice that demonstrates how to create [Spri
   
     note: mvn clean install may run integration tests against services you may not have set up yet
   ```
-1. To load in eclipse (you may skip to 'Push to Cloud' if desired)  
+4. To load in eclipse (you may skip to 'Push to Cloud' if desired)  
   
   Vanilla [Eclipse](https://www.eclipse.org/downloads) or [Eclipse STS - Springsource Tool Suite(https://spring.io/tools/sts/all) are both supported
   ```
@@ -48,7 +48,7 @@ This project is a cloud-ready microservice that demonstrates how to create [Spri
   
   Check the box 'Search for nested projects'  
   ```
-1. Try it out locally  
+5. Try it out locally  
   ```
   in Eclipse - Right Click predix-microservice-cf project / Run As / Application 
   in Eclise STS - Right Click predix-microservice-cf project / Run As / Spring Boot Application 
@@ -56,7 +56,7 @@ This project is a cloud-ready microservice that demonstrates how to create [Spri
   Visit service at http://localhost:9092 - a Spring RestTemplate  
   
   ```
-1. Push to cloud  
+6. Push to cloud  
 
     Take a look at the [predix-microservice-cf manifest.yml](manifest.yml) which provides properties and instructions for [pushing cloud foundry apps](https://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html)
   ```
