@@ -1,6 +1,6 @@
 <a href="http://predixdev.github.io/predix-microservice-cf-spring/javadocs/index.html" target="_blank" >
 	<img height="50px" width="100px" src="images/javadoc.png" alt="view javadoc"></a>
-&nbsp;
+&nbsp;&nbsp;&nbsp;
 <a href="http://predixdev.github.io/predix-microservice-cf-spring" target="_blank">
 	<img height="50px" width="100px" src="images/pages.jpg" alt="view github pages">
 </a>
